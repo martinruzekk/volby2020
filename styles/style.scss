@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .header-wrapper {
+        .nadpis {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .warning {
+            font-size: 20px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .warn {
+            h1 {
+                padding: 0px 20px 0px 0px;
+                font-size: 3rem;
+            }
+
+            justify-self: center;
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            background-color: #ff2929;
+            border-radius: 1rem;
+            padding: 20px;
+            align-items: center;
+            width: 600px;
+            margin: 20px 0px 20px 0px;
+        }
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .strana {
+        width: 80%;
+        margin-top: 20px;
+        background-color: #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 1rem;
+
+        .strana-name {
+            padding: 5px 0px 5px 0px;
+        }
+
+        .pref {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .kandidat {
+                background-color: white;
+                width: 250px;
+                border-radius: 1rem;
+                text-align: center;
+                padding: 20px;
+                margin: 20px;
+                height: auto;
+            }
+        }
+    }
+
+    .celkem {
+        width: 80%;
+        background-color: #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 1rem;
+
+        h1 {
+            margin: 10px 0px 5px 0px;
+        }
+    }
+}
+
+.progressBar {
+    width: 90%;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+    p {
+        z-index: 100;
+    }
+
+    .progress {
+        height: 30px;
+        background-color: #44ff3d;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
